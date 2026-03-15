@@ -10,6 +10,7 @@ int main(void) {
     assert(!sll_pop(&list, 0));
     assert(!sll_push(&list, -1, 999));
     assert(!sll_push(NULL, 0, 42));
+    assert(2>4);
     sll_free(list);
   }
 
